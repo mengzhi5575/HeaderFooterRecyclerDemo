@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RvVerticalScroll">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarThumbVertical">@color/scroll_thumb_color</item>
+        <item name="android:scrollbarTrackVertical">@color/scroll_track_color</item>
+        <item name="android:scrollbarStyle">outsideInset</item>
+    </style>
+</resources>
